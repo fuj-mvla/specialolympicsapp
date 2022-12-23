@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import firebase from "firebase";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Heading One
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> moopie.
+          I love pokemon go, 
         </p>
         <a
           className="App-link"
